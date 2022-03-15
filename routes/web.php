@@ -1,18 +1,23 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ShowController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use App\Http\Controllers\View\HomeController;
+use App\Http\Controllers\View\AboutUsController;
+use App\Http\Controllers\View\CourseController;
+use App\Http\Controllers\View\CourseDetailsController;
+use App\Http\Controllers\View\ElementsControlle;
+use App\Http\Controllers\View\BlogController;
+use App\Http\Controllers\View\SingleBlogController;
+use App\Http\Controllers\View\ContactController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/',[HomeController::class,'index']);
+Route::get('/about_us',[AboutUsController::class,'index']);
+Route::get('/courses',[CourseController::class,'index']);
+Route::get('/course_details',[CourseDetailsController::class,'index']);
+Route::get('/elements',[ElementsControlle::class,'index']);
+Route::get('/blog',[BlogController::class,'index']);
+Route::get('/single_blog',[SingleBlogController::class,'index']);
+Route::get('/contact',[ContactController::class,'index']);
