@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\View;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class SingleBlogController extends Controller
 {
     public function index(){
-        return view('pages.single_blog');
+        return view('pages.single-blog');
     }
 }
