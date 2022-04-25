@@ -183,7 +183,7 @@
         						</div>
         					</div>
         					<div class="team_name">
-        						<h4>Ethel Davis</h4>
+        						<h4>Suman Bej</h4>
         						<p>Managing Director (Sales)</p>
         					</div>
         				</div>
@@ -199,7 +199,7 @@
         						</div>
         					</div>
         					<div class="team_name">
-        						<h4>Ethel Davis</h4>
+        						<h4>SK Ashik Ali</h4>
         						<p>Managing Director (Sales)</p>
         					</div>
         				</div>
