@@ -85,3 +85,35 @@
     </section>
     <!--================Contact Area =================-->
 @endsection
+@section('script')
+    <script>
+        $(document).ready(function() {
+            $("#contactForm").validate({
+                rules: {
+                    
+                    name: "required",
+                    email: "required",
+                    subject: "required",
+                    message: "required",
+                },
+                messages: {
+                    name: {
+                        required: "The Name Field is required",
+                        maxlength: "The Name cannot be more than 30 characters"
+                    },
+                    email: {
+                        required: "Email Field is required",
+                        email: "Email must be a valid email address",
+                        maxlength: "Email cannot be more than 50 characters",
+                    },
+                    message: {
+                        required: "The Message Field is required",
+                    },
+                    subject: {
+                        required: "The Subject Field is required",
+                    },
+                }
+            });
+        });
+    </script>
+@endsection
