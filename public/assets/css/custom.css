@@ -1,0 +1,96 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/* ***************************************** -- Add Course Form -- ***************************************** */
+div.admission-payment{
+  border: 1px solid black;
+}
+
+fieldset.add-course-fieldset {
+  background-color: rgb(89, 208, 255);
+}
+
+legend.add-course-legend {
+  background-color: rgb(147, 87, 202);
+  color: white;
+  padding: 5px 10px;
+  font-size: 26px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid black;
+}
+
+
+
+span.add-course-span {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  outline: none;
+  margin-right: 200px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 522px; 
+  float: right;
+}
+div.add-course-div{
+  margin: 5px 10px 5px 10px;
+}
+label.add-course-label {
+  color: black;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: inline-start;
+  margin-left: 50px;
+}
+
+input.add-course-input{
+  font-size: 20px;
+  width: 522px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  outline: none;
+  border: 1px solid black;
+  float: right;
+  margin-right: 200px;
+}
+input.add-course-input:focus{
+  background-color: yellow;
+}
+input.add-course-submit{
+  background-color: rgb(147, 87, 202);
+  color: white;
+  cursor: pointer;
+
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  outline: none;
+  float: right;
+  margin: 5px 200px 10px 5px;
+  padding: 2px 110px;
+  border: 1px solid black;
+}
+select.add-course-select{
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  outline: none;
+  border: 1px solid black;
+  float: right;
+  margin-right: 200px;
+  padding: 2px;
+}

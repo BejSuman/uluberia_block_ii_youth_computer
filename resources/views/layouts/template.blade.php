@@ -18,6 +18,8 @@
         <!-- main css -->
         <link rel="stylesheet" href={{url("assets/css/style.css")}}>
         <link rel="stylesheet" href={{url("assets/css/responsive.css")}}>
+        {{-- custom css --}}
+        <link rel="stylesheet" href={{url("assets/css/custom.css")}}>
         <style>
             label.error {
             color: #dc3545;
@@ -61,6 +63,7 @@
         <script src={{url("assets/vendors/counter-up/jquery.waypoints.min.js")}}></script>
         <script src={{url("assets/vendors/counter-up/jquery.counterup.js")}}></script>
         <script src={{url("assets/js/mail-script.js")}}></script>
+        <script src={{url("assets/js/myCustom.js")}}></script>
         {{-- <script src={{url("assets/js/theme.js")}}></script> --}}
 
         
