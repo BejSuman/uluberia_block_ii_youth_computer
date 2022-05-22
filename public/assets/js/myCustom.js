@@ -12,36 +12,36 @@
 // });
 
 
-$(document).ready(function(){
-    const input = document.getElementById('course');
-    const textElement = document.getElementById('demo');
-    
-    function updateValue(e) {
-      textElement.textContent = e.target.value;
+$(document).ready(function () {
+  const input = document.getElementById('course');
+  const textElement = document.getElementById('demo');
+
+  function updateValue(e) {
+    textElement.textContent = e.target.value;
+  }
+  input.addEventListener('input', updateValue);
+
+
+
+
+  $("#a, #b, #c").on("keyup", function (e) {
+    var a = $("#a").val();
+    var b = $("#b").val();
+    var c = $("#c").val();
+
+    if (typeof a === 'undefined') {
+      a = 0;
     }
-    input.addEventListener('input', updateValue);
+    if (typeof b === 'undefined') {
+      b = 0;
+    }
+    if (typeof c === 'undefined') {
+      c = 0;
+    }
+    a = parseInt(a);
+    b = parseInt(b);
+    c = parseInt(c);
 
-
-
-
-    $("#a, #b, #c").on("keyup", function(e) {
-      var a = $("#a").val();
-      var b = $("#b").val();
-      var c = $("#c").val();
-  
-      if(typeof a === 'undefined') {
-        a = 0;
-      }
-      if(typeof b === 'undefined') {
-        b = 0;
-      }
-      if(typeof c === 'undefined') {
-        c = 0;
-      }
-      a = parseInt(a);
-      b = parseInt(b);
-      c = parseInt(c);
-      
-      $("#d").val((a*b)+c);
-    })
+    $("#d").val((a * b) + c);
+  })
 });

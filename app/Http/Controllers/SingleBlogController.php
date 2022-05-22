@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 
 class SingleBlogController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('pages.single-blog');
     }
 }

@@ -23,7 +23,7 @@ class AddCourseController extends Controller
         // p($result);
 
         $result = $request->post('course');
-        if($result == 'cita'){
+        if ($result == 'cita') {
             // p('Hello world');
             $courseDetails = 'this is cita course';
         }

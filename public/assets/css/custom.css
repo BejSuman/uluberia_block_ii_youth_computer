@@ -13,7 +13,7 @@ input::-webkit-inner-spin-button {
 
 
 /* ***************************************** -- Add Course Form -- ***************************************** */
-div.admission-payment{
+div.admission-payment {
   border: 1px solid black;
 }
 
@@ -43,12 +43,14 @@ span.add-course-span {
   margin-right: 200px;
   padding-top: 2px;
   padding-bottom: 2px;
-  width: 522px; 
+  width: 522px;
   float: right;
 }
-div.add-course-div{
+
+div.add-course-div {
   margin: 5px 10px 5px 10px;
 }
+
 label.add-course-label {
   color: black;
   font-size: 22px;
@@ -57,7 +59,7 @@ label.add-course-label {
   margin-left: 50px;
 }
 
-input.add-course-input{
+input.add-course-input {
   font-size: 20px;
   width: 522px;
   box-sizing: border-box;
@@ -67,10 +69,12 @@ input.add-course-input{
   float: right;
   margin-right: 200px;
 }
-input.add-course-input:focus{
+
+input.add-course-input:focus {
   background-color: yellow;
 }
-input.add-course-submit{
+
+input.add-course-submit {
   background-color: rgb(147, 87, 202);
   color: white;
   cursor: pointer;
@@ -84,7 +88,8 @@ input.add-course-submit{
   padding: 2px 110px;
   border: 1px solid black;
 }
-select.add-course-select{
+
+select.add-course-select {
   font-size: 20px;
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

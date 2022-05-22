@@ -90,7 +90,7 @@
         $(document).ready(function() {
             $("#contactForm").validate({
                 rules: {
-                    
+
                     name: "required",
                     email: "required",
                     subject: "required",
